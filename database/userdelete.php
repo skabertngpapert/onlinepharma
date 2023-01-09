@@ -1,6 +1,6 @@
 <?php
-$connection = mysqli_connect("localhost","root","");
-$db = mysqli_select_db($connection, 'pharmacy');
+$connection = mysqli_connect("sql6.freemysqlhosting.net","sql6589257","6RLihjnGxe");
+$db = mysqli_select_db($connection, 'sql6589257');
 
 if(isset($_POST['deletedata']))
 {
