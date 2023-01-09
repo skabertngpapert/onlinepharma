@@ -1,9 +1,9 @@
 <?php
-$host = "localhost";
-$uname = "root";
-$password = "";
+$host = "sql6.freemysqlhosting.net";
+$uname = "sql6589257";
+$password = "6RLihjnGxe";
 
-$dbname = "pharmacy";
+$dbname = "sql6589257";
 
 $conn = mysqli_connect($host, $uname, $password, $dbname);
 
