@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@300;500&family=Rubik&display=swap");
+@import "featured.css";
+@import "products.css";
+@import "footer.css";
+@import "cart.css";
+
+button,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.font-montAlt {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.font-mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}

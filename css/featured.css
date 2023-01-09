@@ -1,0 +1,70 @@
+.product-item {
+  height: 20% !important;
+}
+
+.product-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-img img {
+  height: 20%;
+}
+
+.btns {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  font-size: 15px;
+  font-weight: 300;
+  transition: all 0.3s ease-in-out;
+}
+
+.btns button {
+  border: none;
+  background-color: black;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.btns button:hover {
+  color: gold;
+}
+
+.product-img:hover .btns {
+  bottom: 0;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  font-size: 18px;
+}
+
+.product-type {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.product-name:hover {
+  color: gold !important;
+}
+
+.product-price {
+  color: gold;
+}
+
+.product-item {
+  width: 300px;
+}
+
+.owl-item img {
+  display: flex;
+  height: 50vh !important;
+}
+
+.owl-item {
+  text-decoration: none;
+  padding-left: 3em;
+}

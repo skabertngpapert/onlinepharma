@@ -1,0 +1,19 @@
+.nav-bg {
+  background-color: red;
+}
+
+.navbar-toggler {
+  border-color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-cart {
+  background-color: gold;
+}
+
+.nav-cart a:link {
+  text-decoration: none !important;
+}

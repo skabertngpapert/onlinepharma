@@ -1,0 +1,44 @@
+.carousel-caption {
+  text-shadow: 2px 2px 8px #ffff;
+  color: black;
+}
+
+.caption-btn {
+  background-color: #f1e5ac !important;
+  border-color: gold !important;
+}
+
+.caption-btn:hover {
+  background-color: gold !important;
+}
+
+.carousel-item img {
+  width: auto;
+  height: 70vh !important;
+  object-fit: fill;
+  object-position: center;
+}
+
+@media screen and (min-width: 280px) {
+  .carousel-item img {
+    height: 20vh !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .carousel-item img {
+    height: 40vh !important;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .carousel-item img {
+    height: 60vh !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .carousel-item img {
+    height: 70vh !important;
+  }
+}

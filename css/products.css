@@ -1,0 +1,19 @@
+.btn-filter {
+  background: gold !important;
+}
+
+.btn-filter:hover {
+  background: goldenrod !important;
+}
+
+.main-product img {
+  width: 80% !important;
+}
+
+.product-info {
+  height: 20% !important;
+}
+
+.my-search-bar {
+  width: 100% !important;
+}
